@@ -72,6 +72,7 @@ class ComposerStaticInitf076ddbfdf8551f0f0680f8d75044a72
         ),
         'C' => 
         array (
+            'Commands\\' => 9,
             'Carbon\\Doctrine\\' => 16,
             'Carbon\\' => 7,
         ),
@@ -152,8 +153,8 @@ class ComposerStaticInitf076ddbfdf8551f0f0680f8d75044a72
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Clock\\' => 
         array (
@@ -183,6 +184,10 @@ class ComposerStaticInitf076ddbfdf8551f0f0680f8d75044a72
         array (
             0 => __DIR__ . '/..' . '/discord/interactions/discord',
             1 => __DIR__ . '/..' . '/team-reflex/discord-php/src/Discord',
+        ),
+        'Commands\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/commands',
         ),
         'Carbon\\Doctrine\\' => 
         array (
