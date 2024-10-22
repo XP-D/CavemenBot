@@ -78,6 +78,10 @@ function getImage($itemName) {
             return 'https://minecraft.wiki/images/Poppy_JE8_BE2.png?10687';
             break;
 
+        case $itemName === 'Furnace':
+            return 'https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/98/Furnace_%28S%29_BE2.png/revision/latest/scale-to-width/360?cb=20210111064348';
+            break;
+
         case $itemName === 'ERR':
             return 'https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/96/Dead_Bush_%28texture%29_JE1_BE1.png/revision/latest?cb=20200918200748';
             break;

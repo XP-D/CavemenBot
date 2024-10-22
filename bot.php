@@ -154,37 +154,37 @@ $discord->on('ready', function($discord) {
                 $embed->setDescription("
             
                 **<:blocks:1297308825594101771> ┆ Blocks**
-                <:dirt:1296932147093049395> **`Dirt     ".getItem($authorUsername, 'Dirt')."x`**
-                <:stone:1296932168542720010> **`Stone   ".getItem($authorUsername, 'Stone')."x`**
-                <:iron:1296932191992807435> **`Iron     ".getItem($authorUsername, 'Iron')."x`**
-                <:gold:1296932202705326151> **`Gold     ".getItem($authorUsername, 'Gold')."x`**
+                <:dirt:1296932147093049395> **`Dirt     ".getItem($username, 'Dirt')."x`**
+                <:stone:1296932168542720010> **`Stone   ".getItem($username, 'Stone')."x`**
+                <:iron:1296932191992807435> **`Iron     ".getItem($username, 'Iron')."x`**
+                <:gold:1296932202705326151> **`Gold     ".getItem($username, 'Gold')."x`**
 
                 **<:tolls:1297615557972983840> ┆ Tools**
-                <:furnace:1297611381931245573> **`Furnace   ".getItem($authorUsername, 'Furnace')."x`**
-                <:fishing_rod:1297614225677750392> **`Fishing rod   ".getItem($authorUsername, 'Fishing Rod')."x`**
+                <:furnace:1297611381931245573> **`Furnace   ".getItem($username, 'Furnace')."x`**
+                <:fishing_rod:1297614225677750392> **`Fishing rod   ".getItem($username, 'Fishing Rod')."x`**
 
 
                 **<:ores:1297308834712522772> ┆ Ores**
-                <:coal:1296932179363889153> **`Coal     ".getItem($authorUsername, 'Coal')."x`**
-                <:iron_ingot:1297609994300293261> **`Iron Ingot     ".getItem($authorUsername, 'Iron Ingot')."x`**
-                <:gold_ingot:1297610005335379988> **`Gold Ingot     ".getItem($authorUsername, 'Gold Ingot')."x`**
-                <:diamond:1296932213941866589> **`Diamond   ".getItem($authorUsername, 'Diamond')."x`**
+                <:coal:1296932179363889153> **`Coal     ".getItem($username, 'Coal')."x`**
+                <:iron_ingot:1297609994300293261> **`Iron Ingot     ".getItem($username, 'Iron Ingot')."x`**
+                <:gold_ingot:1297610005335379988> **`Gold Ingot     ".getItem($username, 'Gold Ingot')."x`**
+                <:diamond:1296932213941866589> **`Diamond   ".getItem($username, 'Diamond')."x`**
 
 
                 **<:fish:1297691173376495716> ┆ Food**
-                <:cod:1297690524043575297> **`Cod     ".getItem($authorUsername, 'Cod')."x`**
-                <:salmon:1297690513717071943> **`Salmon     ".getItem($authorUsername, 'Salmon')."x`**
-                <:pufferfish:1297690503462125628> **`Pufferfish     ".getItem($authorUsername, 'Pufferfish')."x`**
-                <:cooked_cod:1297699673234083900> **`Cooked cod     ".getItem($authorUsername, 'Cooked cod')."x`**
-                <:cooked_salmon:1297699662756577371> **`Cooked salmon     ".getItem($authorUsername, 'Cooked salmon')."x`**
-                <:apple:1297717800403603557> **`Apple     ".getItem($authorUsername, 'Apple')."x`**
-                <:sweet_berries:1297717790068707329> **`Sweet berries     ".getItem($authorUsername, 'Sweet berries')."x`**
-                <:cake:1297312328093663292> **`Cake     ".getItem($authorUsername, 'Cake')."x`**
+                <:cod:1297690524043575297> **`Cod     ".getItem($username, 'Cod')."x`**
+                <:salmon:1297690513717071943> **`Salmon     ".getItem($username, 'Salmon')."x`**
+                <:pufferfish:1297690503462125628> **`Pufferfish     ".getItem($username, 'Pufferfish')."x`**
+                <:cooked_cod:1297699673234083900> **`Cooked cod     ".getItem($username, 'Cooked cod')."x`**
+                <:cooked_salmon:1297699662756577371> **`Cooked salmon     ".getItem($username, 'Cooked salmon')."x`**
+                <:apple:1297717800403603557> **`Apple     ".getItem($username, 'Apple')."x`**
+                <:sweet_berries:1297717790068707329> **`Sweet berries     ".getItem($username, 'Sweet berries')."x`**
+                <:cake:1297312328093663292> **`Cake     ".getItem($username, 'Cake')."x`**
 
 
                 **<:obtainables:1297308843684139039> ┆ Obtainables**
-                <:poppy:1296954406859964446> **`Poppy   ".getItem($authorUsername, 'Poppy')."x`**
-                <:daisy:1297313939004199004> **`Daisy   ".getItem($authorUsername, 'Daisy')."x`**
+                <:poppy:1296954406859964446> **`Poppy   ".getItem($username, 'Poppy')."x`**
+                <:daisy:1297313939004199004> **`Daisy   ".getItem($username, 'Daisy')."x`**
 
                 ");
                 $embed->setFooter('Requested by '.$authorUsername);
@@ -576,10 +576,11 @@ $discord->on('ready', function($discord) {
 
             **:memo: ┆ Credits**
             **`Bot Developer` @desiignerr**
-            **`Bot Hoster` @basilisk**
+            **`Bot Hoster` @niguita**
             **`Bot Language` php**
             **`Bot Version` v1.0**
             **`Bot Database` MySQL**
+            *v1.1 Coming very soon!*
             
             ");
             $embed->setFooter('Requested by '.$authorUsername);
